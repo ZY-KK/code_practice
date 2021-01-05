@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "vector": "cpp",
-        "iostream": "cpp"
-    },
-    "python.pythonPath": "/home/yi/miniconda3/envs/py3.6/bin/python"
-}
