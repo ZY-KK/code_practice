@@ -2,12 +2,18 @@
     "tasks": [
         {
             "type": "shell",
+<<<<<<< HEAD
             "label": "C/C++: cpp build active file",
             "command": "/usr/bin/cpp",
+=======
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+>>>>>>> 34e6c18e4ea1d5dcf1c32fb87214bae8ae15e8dc
             "args": [
                 "-g",
                 "${file}",
                 "-o",
+<<<<<<< HEAD
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
@@ -27,6 +33,9 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
+=======
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+>>>>>>> 34e6c18e4ea1d5dcf1c32fb87214bae8ae15e8dc
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
